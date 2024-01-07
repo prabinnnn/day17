@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: red;
+  background-image: -moz-repeating-linear-gradient();
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.title {
+  text-align: centre;
+  padding: 50px 0 20px;
+}
+.title h1 {
+  margin: 0;
+  padding: 0;
+  color: #262526;
+  text-transform: uppercae;
+  font-size: 36px;
+}
+.container {
+  width: 50%;
+  height: 400px;
+  background: #fff;
+  margin: 0 auto;
+  border: cadetblue;
+  box-shadow: 0 15px 40px rgba(red, green, blue, alpha);
+}
+.container :left {
+  float: left;
+  width: 50%;
+  height: 400px;
+  background: #262526;
+  background-size: cover;
+  box-sizing: border-box;
+}
+.container :right {
+  float: right;
+  width: 50%;
+  height: 400px;
+  background: #262526;
+  background-size: cover;
+  box-sizing: border-box;
+}
+.formbox {
+  width: 0px;
+  height: auto;
+  padding: 80px 40px;
+  box-sizing: calc();
+  background: #fff;
+}
+.formbox p {
+  margin: 0ch;
+  padding: 0%;
+  font-size: small;
+  color: aqua;
+  font-weight: #a6afa6;
+}
+.font input {
+  margin-bottom: 20px;
+}
+.form input[type="text"],
+.form input[type="password"] {
+  border: none;
+  border-bottom: 2px solid #a6afa6;
+  outline: none;
+}
+.form input[type="text"] focus,
+.form input[type="password"] focus {
+  border-bottom: 2px solid #a6afa6;
+}
+.form input[type="sumbit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  background: #262526;
+  cursor: pointer;
+}
+.form input[type="sumbit"] :hover {
+  background: #a6afa6;
+}
+.formbox a {
+  font-size: small;
+  color: azure;
+}
