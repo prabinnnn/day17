@@ -3,5 +3,11 @@
 // console.log(mydate.toDateString());
 // console.log(mydate.toLocalString());
 // console.log(typeof mydate);
-let createnewdate = new Date(2023, 0, 23);
-console.log(createnewdate);
+// let createnewdate = new Date(2023, 0, 23);
+// console.log(createnewdate.toDateString());
+// let createnewdate = new Date(2023, 0, 23, 5, 3);
+// console.log(createnewdate.toLocaleDateString());
+let createnewdate = new Date("10-11-2023");
+let myTampStamp = Date.now();
+console.log(myTampStamp);
+console.log(createnewdate.getTime());
